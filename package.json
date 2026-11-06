@@ -1,0 +1,1 @@
+{"name":"reporelay","version":"0.1.0","private":true,"type":"module","description":"Turn a GitHub issue into an explainable coding context pack.","engines":{"node":">=22"},"bin":{"reporelay":"src/cli.js"},"scripts":{"test":"node --test","demo":"node src/cli.js --demo","check":"node --check src/cli.js && node --check src/github.js && node --check src/engine.js"},"license":"MIT"}
